@@ -15,6 +15,7 @@ class Calculadora {
             this.valor.slice(-1) === '+' ||
             this.valor.slice(-1) === '-' ||
             this.valor.slice(-1) === '*' ||
+            this.valor.slice(-1) === '.' ||
             this.valor.slice(-1) === '/' 
             ) {
                 this.valor = this.valor.slice(0, -1) + operacao

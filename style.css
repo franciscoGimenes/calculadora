@@ -1,0 +1,28 @@
+#visor{
+    color: white;
+    width: 300px;
+    height: 50px;
+    font: 400 30px sans-serif;
+}
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.teclado{
+    width: 300px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+body{
+    background-color: #252422;
+}
+.operacao{
+    background-color: #eb5e28;
+    color: white;
+}
+.numero{
+    background-color: #fffcf2;
+}
